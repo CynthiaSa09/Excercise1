@@ -6,8 +6,9 @@ i +=1
 end
 =end
 
-51.times do |i|
+50.times do |i|
     puts "Esta es la interación #{i}"
 end
 
 
+50.times { |i| puts "Esta es la interación #{i}"}

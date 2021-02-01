@@ -1,10 +1,10 @@
-password = ARGV[0]
-palabra = 'a'
+pass = ARGV[0]
+word = 'a'
 contador = 0
-while palabra != password
+while word != pass
 
-    palabra = palabra.next
-    contador +=1
+    word = word.next
+    contador += 1
 
 end
-puts "#{Contador}"
+puts contador

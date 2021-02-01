@@ -1,13 +1,13 @@
 n = ARGV[0].to_i
-def gen(n)
-    x =""
-    i = 'a'
-    for j in (1..n)
+def gen(number)
+    string = ""
+    letter = 'a'
+    number.times do
 
-        x += i
-        i = i.next
+        string += letter
+        letter = letter.next
     end
 
-    return x
+    return string
 end
 puts gen(n)
